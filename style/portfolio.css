@@ -75,6 +75,18 @@ p {
     padding: 0 60px;
 }
 
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 769px) {
   h1 {
     font-size: 48px;
