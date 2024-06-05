@@ -104,6 +104,16 @@ p {
   text-decoration: underline;
 }
 
+.about-h1 {
+  line-height: 1.3;
+  font-size: 64px;
+}
+
+.about-h2{
+  font-size: 18px;
+  font-weight: bold;
+}
+
 @media (max-width: 769px) {
   h1 {
     font-size: 48px;
