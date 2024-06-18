@@ -178,33 +178,8 @@ footer .social-links a:hover {
   background-color: var(--branding-color);
 }
 
-@media (max-width: 769px) {
-  h1 {
-    font-size: 48px;
-    line-height: 1.5;
-    margin-top: 20px 0px;
-  }
-  h2 {
-    font-size: 32px;
-    text-align: center;
-  }
-  h3 {
-    font-size: 20px;
-  }
-  p {
-    text-align: center;
-  }
-  .hero {
-    padding: 40px 20px;
-  }
-  .hero p {
-    font-size: 26px;
-  }
-
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
+.open-sourced {
+  color: var(--branding-color)
 }
 
 @media (max-width: 900px) {
@@ -222,7 +197,10 @@ footer .social-links a:hover {
  
 
   .hero {
-    padding: 80px 20px;
+    padding: 40px 20px;
+  }
+  .hero p {
+    padding-bottom: 20px;
   }
 
   .content-section {
