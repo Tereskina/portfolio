@@ -189,7 +189,7 @@ footer .social-links a:hover {
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 38px;
   }
   h4 {
     font-size: 18px;
@@ -205,8 +205,18 @@ footer .social-links a:hover {
 
   .content-section {
     text-align: center;
-    padding: 0;
+    padding: 5px;
   }
+
+  .content-section h1 {
+    font-size: 44px;
+    line-height: normal;
+  }
+ 
+  .contact h2 {
+    font-size: 30px;
+  }
+ 
 
   .project-desciption {
     padding: 0;
